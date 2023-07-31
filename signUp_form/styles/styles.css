@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ebe2e2;
+    font-family: sans-serif;
+    background: hsl(180, 69%, 23%);
+    opacity: .8;
+}
+
+.Login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25rem;
+    padding: 2.5rem;
+    transform: translate(-50%, -50%);
+    background: hsla(0, 3%, 8%, 0.8);
+    box-sizing: border-box;
+    transition: 1s;
+    box-shadow: 0 1rem 1.5rem #141313;
+    border-radius: 1rem;
+}
+
+.Login-box h2 {
+    margin: 0 0 2rem;
+    padding: 0;
+    color: #ebe2e2);
+    text-align: center;
+}
+
+.Login-box .user-box {
+    position: relative;
+}
+
+.Login-box .user-box input {
+    width: 100%;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    color: #ebe2e2;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid #ebe2e2;
+    outline: none;
+    background: transparent;
+}
+
+.Login-box .user-box input:hover {
+    border-bottom: 1px solid #00ffff;
+    transition: ease-in-out;
+    transition-delay: .5s;
+}
+
+
+.Login-box .user-box input:valid {
+    top: -1.25rem;
+    left: 0;
+    color: #ebe2e2;
+    font-size: 0.75rem;
+}
+
+.Login-box .button {
+    text-align: center;
+}
+
+.Login-link {
+    width: 60%;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 1rem;
+    color: #ebe2e2;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 0.4rem;
+    letter-spacing: 0.25rem;
+}
+
+.Login-box .Login-link:hover {
+    color: #00ffff;
+    border-radius: 0.32rem;
+    box-shadow: 0 0 0.2rem #00ffff;
+
+}
+
+.Login-link2 {
+    width: auto;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 1rem;
+    color: #ebe2e2;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 0.4rem;
+    letter-spacing: 0.25rem;
+}
+
+.Login-box .Login-link2:hover {
+    color: #00ffff;
+    border-radius: 0.32rem;
+    box-shadow: 0 0 0.2rem #00ffff;
+
+}
+
+.Login-box p {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.Login-box form .sign-link {
+    color: #00ffff;
+    opacity: .6;
+    text-decoration: none;
+}
+
+.Login-box form .sign-link:hover {
+    opacity: 1;
+}
