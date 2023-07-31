@@ -1,2 +1,2 @@
-# technoHacks_internship
+# TechnoHacks_internship
 An internship repo.
